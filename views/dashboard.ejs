@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <style>
+        body {
+            text-align: center;
+            background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/08/Background-HD-Wallpapers.jpg);
+        }
+
+        h1, h2, a {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: black;
+        }
+        
+    </style>
+
+</head>
+<body>
+
+    <a href="/users/logout">Logout</a>
+    <h1>Helo <%= user.charAt(0).toUpperCase() + user.slice(1) %></h1>
+
+    <h1>Login Success</h1>
+
+    <h1>Scravenger</h1>
+</body>
+</html>
