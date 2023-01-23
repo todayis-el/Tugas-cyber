@@ -23,5 +23,14 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
-  }
+  },
+ "repository": {
+    "type": "git",
+    "url": "git+https://github.com/todayis-el/Tugas-cyber.git"
+  },
+  "bugs": {
+    "url": "https://github.com/todayis-el/Tugas-cyber/issues"
+  },
+  "homepage": "https://github.com/todayis-el/Tugas-cyber#readme",
+  "description": ""
 }
