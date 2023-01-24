@@ -92,6 +92,7 @@ app.post("/users/register", async (req, res)=>{
             `SELECT * FROM users
             WHERE email = $1`, [email],(err, results)=>{
                 if(err){
+                    console.log("a "+err);
                     throw err;
                 }
                 console.log("here");
