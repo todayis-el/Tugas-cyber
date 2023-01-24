@@ -106,7 +106,7 @@ app.post("/users/register", async (req, res)=>{
                     pool.query(
                         `INSERT INTO users(name,email,password)
                         VALUES ($1, $2, $3)
-                        RETURNING id,password`, [name,email,hashedPassword], (err, results)=>{
+                        RETURNING name,password`, [name,email,hashedPassword], (err, results)=>{
                             if(err){
                                 throw err
                             }
